@@ -21,11 +21,13 @@ Appropriately labels the data set with descriptive variable names.
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 INSTALL PACKAGES
-RCurl
-reshape2
+
+1)RCurl
+2)reshape2
 
 SET WORKING DIR
 Script creates a relative ./data dir in which it downloads the .zip, extracts it and writes the result file (tidy_data.txt)
+
 RUN ANALYSIS.R  
 writes data to ./data dir
 generates/overwrites ./CodeBook.md
